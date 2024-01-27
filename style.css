@@ -559,3 +559,53 @@ video {
   background: var(--color-white);
   box-shadow: var(--shadow-large);
 }
+
+/* Responsive Styles */
+
+/* Mobile */
+@media screen and (max-width: 480px) {
+  body {
+    font-size: 16px;
+    padding-top: 80px; /* Adjusted for smaller screens */
+  }
+
+  .Header {
+    padding-top: 60px; /* Adjusted for smaller screens */
+  }
+
+  .Header-nav-item {
+    font-size: 18px;
+    margin: 0 20px;
+  }
+
+  .container .card {
+    margin-bottom: 5%;
+  }
+
+  .MobileNav-trigger {
+    display: block;
+  }
+
+  .MobileNav-inner {
+    padding-top: 80px; /* Adjusted for smaller screens */
+  }
+}
+
+/* Tablet */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  body {
+    font-size: 17px;
+  }
+
+  .Header-nav {
+    max-height: 80px;
+  }
+
+  .container .card {
+    margin-bottom: 8%;
+  }
+
+  .MobileNav-inner {
+    padding-top: 120px; /* Adjusted for tablets */
+  }
+}
