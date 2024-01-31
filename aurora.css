@@ -321,3 +321,62 @@ text-align:left;
 margin:0% 3%;
 }
 }
+
+/* Responsive Styles */
+
+/* Tablets */
+@media screen and (max-width: 768px) {
+  .content {
+    padding: 1.5rem 8rem; /* Adjusted padding for tablets */
+  }
+
+  .title {
+    font-size: 4rem;
+  }
+
+  .subtitle {
+    font-size: 1.5rem;
+  }
+
+  .ticker p {
+    font-size: 24px; /* Adjusted font size for tablets */
+  }
+}
+
+/* Mobile */
+@media screen and (max-width: 480px) {
+  .content {
+    padding: 1.5rem 4rem; /* Adjusted padding for mobile */
+  }
+
+  .title {
+    font-size: 2.5rem;
+  }
+
+  .subtitle {
+    font-size: 18px;
+  }
+
+  .ticker p {
+    font-size: 18px; /* Adjusted font size for mobile */
+  }
+}
+
+/* Larger Screens (Desktop and Laptop) */
+@media screen and (min-width: 769px) {
+  .content {
+    padding: 1.5rem 14rem; /* Adjusted padding for larger screens */
+  }
+
+  .title {
+    font-size: var(--fs);
+  }
+
+  .subtitle {
+    font-size: 1rem;
+  }
+
+  .ticker p {
+    font-size: 35px; /* Adjusted font size for larger screens */
+  }
+}
